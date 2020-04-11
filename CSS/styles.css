@@ -1,0 +1,516 @@
+/*navigation section*/
+
+.navbar-toggler{
+  color: #ffffff;
+}
+
+.navbar{
+  background-color: #000;
+  color:#ffffff;
+}
+/*.navbar-header{
+  font-weight: bold;
+    text-align:center;
+      font-size: 4.5rem;*/
+
+.navbar-image{
+  align-items: center;
+}
+.nav-link{
+  color:#ffffff;
+  font-family:  'Quicksand', sans-serif;
+  font-stretch: extra-expanded;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btn-s{
+  color: #ffffff;
+}
+.read-btn{
+  padding-left: 3%;
+}
+.read{
+  width: 200px;
+  border-spacing: 10px;
+  border: 3px solid #ffffff;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.inner{
+  overflow: hidden;
+}
+.inner-img{
+  transition: all 2s ease;
+  transition-duration: 5s;
+}
+.inner:hover img{
+  transform: scale(1.2);
+}
+.inner:hover text{
+  transform: scale(1.2);
+}
+.outer-img{
+  transition: all 2s ease;
+  transition-duration: 5s;
+}
+.outer:hover img{
+  transform: scale(0.9);
+}
+
+.full-container{
+    padding:5% ;
+}
+.list-header{
+ margin-top:100px;
+}
+.btn-seat{
+
+  width: 30%;
+}
+.seat-btn{
+  padding-left: 20px;
+}
+.seat{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/*title section*/
+.title-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  text-align:center;
+  font-weight: bold;
+
+
+  margin-top: 6px;
+  padding-bottom: 150px;
+}
+.animated{
+  animation-delay: 4s;
+}
+.audi-text{
+  padding:3% 25% 7% 25%;
+}
+.Audi-img{
+  width: 100%;
+  height: 530px;
+}
+.audi{
+  width: 100%;
+
+  background-image: url("Audi-e-tron-GT.jpg");
+}
+
+.Audi-img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5px;
+}
+.container-a{
+  padding-left: 5px;
+}
+
+.btn{
+  background-color:#ffffff;
+  border: 1px solid #a2a9b1;
+  padding-bottom: 10px;
+}
+.btn-audi-PB18{
+  background-color:#ffffff;
+  border: 1px solid #a2a9b1;
+  margin-top: 25px;
+}
+@media (max-width:"994px") {
+.concept-car-info{
+    padding-top:5%;
+}
+}
+/*List_of_Audi_concept_cars*/
+#row{
+  background-color:#F4F4F4;
+
+
+}
+.au{
+  padding-top: 20px;
+}
+.set{
+  padding-top:25px;
+}
+.btn-set{
+  width: 70%;
+  font-size:0.85rem;
+}
+.seat-btn{
+padding-bottom: 20px;
+}
+
+
+
+/*------------------------Audi PB18 e-tron----------------------------*/
+.table{
+  display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.audi-div{
+padding: 0px 0px;
+
+    margin: 0.5rem 0.5rem 1.5rem;
+float: right;
+clear: right;
+font-size: 70%;
+width: 30%;
+
+}
+hr{
+  z-index: -1;
+}
+    tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    height: 10px;
+    }
+p{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.75;
+
+
+
+}
+h1{
+  font-family: 'Playfair Display', serif;
+}
+h5{
+  font-weight: lighter;
+}
+.pricing-text{
+  margin-left:20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align:  center;
+  border: 0;
+  border-radius: 100px;
+  background-color: #F4F4F4;
+
+}
+.Audi-PB18-E-Torn{
+  padding:7% 15%;
+}
+.toc{
+  border-spacing: 3px;
+  border: 1px solid #a2a9b1;
+  display: table;
+  background-color: #f8f9fa;
+}
+.header{
+ font-weight: lighter;
+}
+#mw-toc-heading{
+   font-weight: lighter;
+   margin: 2px auto 2px auto;
+}
+.toclevel{
+  margin: 5px auto 5px auto;
+  }
+.img{
+width:100%;
+}
+
+.row{
+  margin: 0;
+}
+.footer{
+  padding: 7% 15%;
+}
+.icon{
+  margin:20px 10px;
+}
+
+@font-face {
+  font-family: adlanta;
+  src: url(Adlanta.otf);
+}
+span{
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+}
+/*-----------------------------Audi-AI:ME--------------------------------*/
+.Audi-AI{
+  padding:5% 5%;
+}
+.audi-ai-img{
+  width: 100%;
+}
+.fn{
+float: right;
+}
+.table{
+  border-spacing: 3px;
+  border: 1px solid #a2a9b1;
+}
+.contact{
+  width: 100%;
+  display: inline-block;
+  background-color: #000;
+  color: #ffffff;
+  font-size:125%;
+  font-weight:bold;
+}
+.btn-audi-ai{
+  font-size: 0.75rem;
+  background-color: #c0c0c0;
+  width:50%;
+  float: right;
+}
+.audi-ai-text{
+  width:70%;
+  padding-top: 30px;
+}
+.h3-header{
+    padding-top: 30px;
+}
+.audi-ai-img2{
+  padding-top: 30px;
+  width: 250px;
+  height: 200px;
+}
+.info-text1{
+  padding-top: 30px;
+  width: 70%;
+  float: right;
+}
+.info-text2{
+  width: 70%;
+  float: right;
+}
+.img{
+  width: 100%;
+  width: 500px;
+  height: 300px;
+}
+/*-----------------feature----------------*/
+.model-btn{
+  padding-top: 5%;
+  padding-left: 20px;
+}
+.model-btn-1{
+  padding-top: 5%;
+}
+.Serial-Models-img{
+  width: 100%;
+  width: 300px;
+  height: 250px;
+
+  align-items: center;
+}
+.Serial-Models{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.concept-car{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.design{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.cell{
+  padding-top: 10px;
+
+}
+.btn-pricing{
+  width:70%;
+  font-size: 0.85rem;
+}
+.btn-pricing-2{
+  padding-left: 10px;
+  font-size: 0.75rem;
+  width:65%;
+}
+.clo{
+  margin-top: 15px;
+  border-spacing: 3px;
+  border: 1px solid #a2a9b1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*-----------------contact us----------------*/
+.contact-btn{
+  width: 30%;
+  padding-left: 10%;
+}
+
+.index2-body{
+  margin:0;
+  padding:0;
+  background-color:#000;
+}
+.index2-section{
+
+
+}
+.index2-h2{
+  margin:0;
+  padding: 0;
+  position: absolute;
+  top: 45%;
+
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.012em;
+}
+.index2-span{
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+@keyframes animate
+{
+     0%
+     {
+  opacity: 0;
+  transform: rotateY(90deg);
+  filter: blur(10px);
+     }
+     100%
+     {
+  opacity: 1;
+transform: rotateY(0deg);
+filter: blur(0px);
+     }
+}
+.index2-vid{
+
+  object-fit:cover;
+width: 100%;
+}
+.index2-span:nth-child(1){
+  animation-delay: 1.25s;
+}
+.index2-span:nth-child(2){
+  animation-delay: 1.5s;
+}
+.index2-span:nth-child(3){
+  animation-delay: 1.75s;
+}
+.index2-span:nth-child(4){
+  animation-delay: 1.95s;
+}
+.index2-span:nth-child(5){
+  animation-delay: 2s;
+}
+.index2-span:nth-child(6){
+  animation-delay: 2.5s;
+}
+.index2-span:nth-child(7){
+  animation-delay: 2.75s;
+}
+.index2-btn{
+  width: 200px;
+  border-spacing: 10px;
+  border: 3px solid #ffffff;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.index2-div2{
+  padding-bottom: 250px;
+    padding-top: 0;
+}
+@media (max-width:900px) {
+  .index2-body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+  }
+  .index2-section{
+    height:100vh;
+    background-color:#000;
+  }
+  .index2-div{
+    padding-top: 39%;
+  }
+  .index2-h2{
+    margin:0;
+    padding: 0;
+    position:absolute;
+
+
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.012em;
+  }
+  .index2-span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+  }
+  @keyframes animate
+  {
+       0%
+       {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+       }
+       100%
+       {
+    opacity: 1;
+  transform: rotateY(0deg);
+  filter: blur(0px);
+       }
+  }
+  .index2-vid{
+    object-fit:cover;
+  width: 100%;
+  }
+  .index2-span:nth-child(1){
+    animation-delay:1s;
+  }
+  .index2-span:nth-child(2){
+    animation-delay: 1.5s;
+  }
+  .index2-span:nth-child(3){
+    animation-delay: 1.75s;
+  }
+  .index2-span:nth-child(4){
+    animation-delay: 2.5s;
+  }
+  .index2-span:nth-child(5){
+    animation-delay: 2.75s;
+  }
+  .index2-span:nth-child(6){
+    animation-delay: 3.5s;
+  }
+  .index2-span:nth-child(7){
+    animation-delay: 4s;
+  }
+  .index2-btn{
+    width: 200px;
+    border-spacing: 10px;
+    border: 3px solid #ffffff;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .index2-div2{
+padding-bottom: 250px;
+  padding-top: 0;
+  }
+}
